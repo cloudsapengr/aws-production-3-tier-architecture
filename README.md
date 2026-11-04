@@ -110,3 +110,20 @@ Delete resources when they are no longer needed to avoid unexpected costs.
 
 **AWS Region:** Asia Pacific (Tokyo) — `ap-northeast-1`  
 **Project:** AWS SAA-C03 Portfolio — Production 3-Tier Architecture
+
+## Infrastructure Screenshots
+
+### 1. VPC Resource Map
+![VPC Resource Map](screenshots/01-vpc-resource-map.png)
+
+### 2. Auto Scaling Group
+![Auto Scaling Group](screenshots/02-auto-scaling-group.png)
+
+### 3. Target Group Health
+![Target Group Health](screenshots/03-target-group-healthy.png)
+
+### 4. Application Load Balancer
+![Application Load Balancer](screenshots/04-application-load-balancer.png)
+
+### 5. Amazon RDS Configuration
+![Amazon RDS Configuration](screenshots/05-rds-configuration.png)
