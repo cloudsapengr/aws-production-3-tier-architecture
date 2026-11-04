@@ -66,7 +66,7 @@ The RDS instance is not publicly accessible.
 
 Amazon RDS for MySQL is deployed in private database subnets.
 
-**Availability limitation:** The database uses Single-AZ deployment to keep the learning project within a limited budget. It does not provide automatic Multi-AZ database failover.
+**Availability limitation:** The database uses a Single-AZ deployment because Multi-AZ deployment was not available under the AWS Free Tier offering used for this project. As a result, it does not provide automatic Multi-AZ database failover.
 
 Database connectivity was tested from an EC2 application instance using AWS Systems Manager Session Manager. A test database and table were created, and sample records were successfully queried.
 
